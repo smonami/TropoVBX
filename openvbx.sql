@@ -314,4 +314,4 @@ INSERT INTO groups
        ('Sales', 1, 1),
        ('Support', 1, 1);
 
-ALTER TABLE  `users` ADD  `data` TEXT NOT NULL COMMENT  'Stores VoiceVault claimant identifier.';
+ALTER TABLE  `users` ADD  `data` TEXT DEFAULT NULL COMMENT  'Stores VoiceVault claimant identifier.';
